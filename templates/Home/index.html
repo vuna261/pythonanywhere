@@ -22,8 +22,8 @@
             </div>
             <dv><br><br></dv>
 
-            <button class="index-red-btn" onclick="location.href='#'"><i class="fa fa-group" >&emsp;I'm Citizen</i></button>
-            <button class="index-btn" onclick="location.href='#'"><i class="fa fa-gear">&emsp;I'm Business</i></button>
+            <button class="index-red-btn" onclick="location.href='{% url 'citizenHome' %}'"><i class="fa fa-group" >&emsp;I'm Citizen</i></button>
+            <button class="index-btn" onclick="location.href='{% url 'facilitiesDisplay' 3 %}'"><i class="fa fa-gear">&emsp;I'm Business</i></button>
             <button class="index-btn" ><i class="fa fa-bank">&emsp;I'm Management</i></button>
 
         </div>
