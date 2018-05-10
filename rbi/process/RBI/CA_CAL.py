@@ -1329,9 +1329,12 @@ class CA_TANK_BOTTOM:
         return summ * self.MATERIAL_COST / obj[4]
 
     def FC_PROD_BOTTOM(self):
-        obj = DAL_CAL.POSTGRESQL.GET_API_COM(self.API_COMPONENT_TYPE_NAME)
-        t = obj[0] * obj[9] + obj[1] * obj[10] + obj[2] * obj[11] + obj[3] * obj[12]
-        return t * self.PRODUCTION_COST / obj[4]
+        try:
+            obj = DAL_CAL.POSTGRESQL.GET_API_COM(self.API_COMPONENT_TYPE_NAME)
+            t = obj[0] * obj[9] + obj[1] * obj[10] + obj[2] * obj[11] + obj[3] * obj[12]
+            return t * self.PRODUCTION_COST / obj[4]
+        except:
+            return 0
 
     def FC_total_bottom(self):
         FC_TOTAL_BOTTOM = self.FC_cmd_bottom() + self.FC_environ_bottom() + self.FC_PROD_BOTTOM()

@@ -1,12 +1,10 @@
-{% extends 'BaseUI/BaseFacility/baseEquipment.html' %}
+{% extends 'BaseUI/BaseFacility/baseUpload.html' %}
 
 {% load staticfiles %}
 
-<!--------------- BLOCK MENU ------------->
-{#{% block listeq %}{% url 'equipmentDisplay' facilityID %}{% endblock %}#}
-{#{% block neweq %}{% url 'equipmentNew' facilityID %}{% endblock %}#}
-{#{% block backfaci %}{% url 'facilitiesDisplay' siteID %}{% endblock %}#}
-<!--------------- END BLOCK -------------->
+<!------------ BLOCK MENU--------->
+{% block backfaci %}{% url 'facilitiesDisplay' siteID %}{% endblock %}
+<!-----------END BLOCK------------>
 
 {% block data-content %}
     <form method="post" id="fileUpload" enctype="multipart/form-data">

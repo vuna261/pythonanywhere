@@ -12,7 +12,7 @@ def locat(DamageFactor, FinancialCost):
     elif FinancialCost <= 10000000:
         data['x'] = int(round(400 + 0.00001 * FinancialCost,0))
     elif FinancialCost <= 1000000000:
-        data['x'] = int(round(500 + 0.000001 * FinancialCost,0))
+        data['x'] = int(round(500 + 0.0000001 * FinancialCost,0))
     else:
         data['x'] = 600
 

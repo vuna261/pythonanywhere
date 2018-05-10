@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'efxln^bq3)!v**x=b_sd3+dv0iol0*h)mbk&&w(auv0^u7*n3('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'pythonanywhere.wsgi.application'
 
 DATABASES = {
     'default': {
-         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-         'NAME': 'pvmalwqp',
-         'USER': 'pvmalwqp',
-         'PASSWORD': '1Lon7T6GT-dozL6sBOW7yt5tzzR_gl6j',
-         'HOST': 'tantor.db.elephantsql.com',
-         'PORT': '5432',
+         'ENGINE': 'django.db.backends.mysql',
+         'NAME': 'anhvu2611$default',
+         'USER': 'root',
+         'PASSWORD': 'root',
+         'HOST': 'localhost',
+         'PORT': '3306',
      }
 }
 

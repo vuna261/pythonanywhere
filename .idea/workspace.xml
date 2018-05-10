@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a91d706-2259-444c-9547-57af6f020da8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/File/export_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/File/import_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/RBI/CA_CAL.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/RBI/DM_CAL.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/RBI/Postgresql.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/RBI/fastCalulate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/RBI/pofConvert.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/WebUI/date2Str.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/WebUI/location.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rbi/process/WebUI/roundData.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/CitizenUI/CitizenHome.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/hello.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseUpload.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/FacilityUI/equipment/uploadData.html" afterPath="$PROJECT_DIR$/templates/FacilityUI/facility/uploadData.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonanywhere/settings.py" afterPath="$PROJECT_DIR$/pythonanywhere/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonanywhere/urls.py" afterPath="$PROJECT_DIR$/pythonanywhere/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbi/models.py" afterPath="$PROJECT_DIR$/rbi/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbi/process/RBI/CA_CAL.py" afterPath="$PROJECT_DIR$/rbi/process/RBI/CA_CAL.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbi/process/WebUI/location.py" afterPath="$PROJECT_DIR$/rbi/process/WebUI/location.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbi/views.py" afterPath="$PROJECT_DIR$/rbi/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/BaseUI/BaseWeb/base.html" afterPath="$PROJECT_DIR$/templates/BaseUI/BaseWeb/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Home/index.html" afterPath="$PROJECT_DIR$/templates/Home/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseFacility.html" afterPath="$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseFacility.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/FacilityUI/facility/facilityListDisplay.html" afterPath="$PROJECT_DIR$/templates/FacilityUI/facility/facilityListDisplay.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,22 +25,95 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonanywhere/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            <state relative-caret-position="-714">
+              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/404/404.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rbi/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="1768">
+              <caret line="2648" column="85" lean-forward="false" selection-start-line="2648" selection-start-column="4" selection-end-line="2648" selection-end-column="85" />
               <folding>
-                <element signature="e#701#764#0#HTML" expanded="true" />
-                <element signature="e#784#871#0#HTML" expanded="true" />
+                <element signature="e#2057#3346#0" expanded="false" />
+                <element signature="e#3386#4617#0" expanded="false" />
+                <element signature="e#4662#6329#0" expanded="false" />
+                <element signature="e#6371#7287#0" expanded="false" />
+                <element signature="e#7327#8127#0" expanded="false" />
+                <element signature="e#8174#9247#0" expanded="false" />
+                <element signature="e#9290#10225#0" expanded="false" />
+                <element signature="e#10267#10977#0" expanded="false" />
+                <element signature="e#11027#11938#0" expanded="false" />
+                <element signature="e#11983#13025#0" expanded="false" />
+                <element signature="e#13069#15334#0" expanded="false" />
+                <element signature="e#15380#18281#0" expanded="false" />
+                <element signature="e#18327#19381#0" expanded="false" />
+                <element signature="e#19426#21572#0" expanded="false" />
+                <element signature="e#21618#23559#0" expanded="false" />
+                <element signature="e#23604#26986#0" expanded="false" />
+                <element signature="e#27030#48973#0" expanded="false" />
+                <element signature="e#49013#69634#0" expanded="false" />
+                <element signature="e#69678#92123#0" expanded="false" />
+                <element signature="e#92163#113348#0" expanded="false" />
+                <element signature="e#113390#114945#0" expanded="false" />
+                <element signature="e#114994#118051#0" expanded="false" />
+                <element signature="e#118099#125688#0" expanded="false" />
+                <element signature="e#125729#128225#0" expanded="false" />
+                <element signature="e#128269#128359#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseUpload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseUpload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseFacility.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseFacility.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="112" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="location.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rbi/process/WebUI/location.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Postgresql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rbi/process/RBI/Postgresql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="126" column="42" lean-forward="false" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facilityListDisplay.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/FacilityUI/facility/facilityListDisplay.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,22 +121,10 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonanywhere/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="60" column="76" lean-forward="false" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+            <state relative-caret-position="935">
+              <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="60" selection-end-column="84" />
               <folding>
                 <element signature="e#638#670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#1436#1442#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +142,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>time</find>
+      <find>FC_PRO</find>
+      <find>FC_PROD_BOTTOM</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,16 +156,22 @@
         <option value="$PROJECT_DIR$/templates/BaseUI/BaseWeb/base.html" />
         <option value="$PROJECT_DIR$/templates/404/404.html" />
         <option value="$PROJECT_DIR$/rbi/models.py" />
-        <option value="$PROJECT_DIR$/rbi/process/RBI/CA_CAL.py" />
         <option value="$PROJECT_DIR$/rbi/process/RBI/DM_CAL.py" />
         <option value="$PROJECT_DIR$/rbi/process/RBI/fastCalulate.py" />
-        <option value="$PROJECT_DIR$/rbi/process/RBI/Postgresql.py" />
         <option value="$PROJECT_DIR$/rbi/process/File/export_data.py" />
         <option value="$PROJECT_DIR$/rbi/process/File/import_data.py" />
-        <option value="$PROJECT_DIR$/rbi/views.py" />
         <option value="$PROJECT_DIR$/templates/Home/index.html" />
-        <option value="$PROJECT_DIR$/pythonanywhere/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/pythonanywhere/settings.py" />
+        <option value="$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseFacility.html" />
+        <option value="$PROJECT_DIR$/pythonanywhere/urls.py" />
+        <option value="$PROJECT_DIR$/templates/FacilityUI/facility/facilityListDisplay.html" />
+        <option value="$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseUpload.html" />
+        <option value="$PROJECT_DIR$/templates/FacilityUI/facility/uploadData.html" />
+        <option value="$PROJECT_DIR$/rbi/views.py" />
+        <option value="$PROJECT_DIR$/rbi/process/RBI/Postgresql.py" />
+        <option value="$PROJECT_DIR$/rbi/process/RBI/CA_CAL.py" />
+        <option value="$PROJECT_DIR$/rbi/process/WebUI/location.py" />
       </list>
     </option>
   </component>
@@ -142,8 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,26 +221,64 @@
             <path>
               <item name="pythonanywhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonanywhere" type="462c0819:PsiDirectoryNode" />
+              <item name="rbi" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonanywhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonanywhere" type="462c0819:PsiDirectoryNode" />
+              <item name="rbi" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+              <item name="RBI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonanywhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonanywhere" type="462c0819:PsiDirectoryNode" />
+              <item name="rbi" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+              <item name="WebUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonanywhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonanywhere" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonanywhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonanywhere" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="404" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonanywhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonanywhere" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="FacilityUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonanywhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonanywhere" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="FacilityUI" type="462c0819:PsiDirectoryNode" />
+              <item name="facility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="E:/RbiCloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/FacilityUI/facility" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anhvu\PycharmProjects\pythonanywhere\templates\FacilityUI\facility" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anhvu\PycharmProjects\pythonanywhere\rbi" />
       <recent name="C:\Users\anhvu\PycharmProjects\pythonanywhere\templates" />
@@ -243,15 +338,15 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -275,6 +370,44 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonanywhere/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="76" lean-forward="false" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+          <folding>
+            <element signature="e#638#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbi/process/File/export_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythonanywhere/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -287,7 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -295,9 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#230#239#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -305,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -313,23 +441,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="e#2057#3346#0" expanded="false" />
+            <element signature="e#3386#4617#0" expanded="false" />
+            <element signature="e#4662#6329#0" expanded="false" />
+            <element signature="e#6371#7287#0" expanded="false" />
+            <element signature="e#7327#8127#0" expanded="false" />
+            <element signature="e#8174#9247#0" expanded="false" />
+            <element signature="e#9290#10225#0" expanded="false" />
+            <element signature="e#10267#10977#0" expanded="false" />
+            <element signature="e#11027#11938#0" expanded="false" />
+            <element signature="e#11983#13025#0" expanded="false" />
+            <element signature="e#13069#15334#0" expanded="false" />
+            <element signature="e#15380#18281#0" expanded="false" />
+            <element signature="e#18327#19381#0" expanded="false" />
+            <element signature="e#19426#21572#0" expanded="false" />
+            <element signature="e#21618#23559#0" expanded="false" />
+            <element signature="e#23604#26986#0" expanded="false" />
+            <element signature="e#27030#48973#0" expanded="false" />
+            <element signature="e#49013#69634#0" expanded="false" />
+            <element signature="e#69678#92123#0" expanded="false" />
+            <element signature="e#92163#113348#0" expanded="false" />
+            <element signature="e#113390#114945#0" expanded="false" />
+            <element signature="e#114994#118051#0" expanded="false" />
+            <element signature="e#118099#125688#0" expanded="false" />
+            <element signature="e#125729#128225#0" expanded="false" />
+            <element signature="e#128269#128359#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hello.html" />
     <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseWeb/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -350,19 +496,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hello.html" />
     <entry file="file://$PROJECT_DIR$/rbi/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,9 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#230#239#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -388,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -396,15 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseFacility.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -412,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -420,15 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseManufacture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -436,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1086">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,47 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rbi/process/RBI/CA_CAL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rbi/process/RBI/fastCalulate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rbi/process/File/export_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rbi/process/RBI/Postgresql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,15 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rbi/process/WebUI/location.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,57 +627,165 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16932">
           <caret line="1005" column="34" lean-forward="false" selection-start-line="1005" selection-start-column="34" selection-end-line="1005" selection-end-column="34" />
-          <folding>
-            <element signature="e#468#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rbi/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbi/process/File/export_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/FacilityUI/manufacture/manufactureEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseManufacture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/FacilityUI/facility/uploadData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/FacilityUI/facility/facilityListDisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="2648" column="85" lean-forward="false" selection-start-line="2648" selection-start-column="4" selection-end-line="2648" selection-end-column="85" />
           <folding>
-            <element signature="e#1436#1442#0#HTML" expanded="true" />
+            <element signature="e#2057#3346#0" expanded="false" />
+            <element signature="e#3386#4617#0" expanded="false" />
+            <element signature="e#4662#6329#0" expanded="false" />
+            <element signature="e#6371#7287#0" expanded="false" />
+            <element signature="e#7327#8127#0" expanded="false" />
+            <element signature="e#8174#9247#0" expanded="false" />
+            <element signature="e#9290#10225#0" expanded="false" />
+            <element signature="e#10267#10977#0" expanded="false" />
+            <element signature="e#11027#11938#0" expanded="false" />
+            <element signature="e#11983#13025#0" expanded="false" />
+            <element signature="e#13069#15334#0" expanded="false" />
+            <element signature="e#15380#18281#0" expanded="false" />
+            <element signature="e#18327#19381#0" expanded="false" />
+            <element signature="e#19426#21572#0" expanded="false" />
+            <element signature="e#21618#23559#0" expanded="false" />
+            <element signature="e#23604#26986#0" expanded="false" />
+            <element signature="e#27030#48973#0" expanded="false" />
+            <element signature="e#49013#69634#0" expanded="false" />
+            <element signature="e#69678#92123#0" expanded="false" />
+            <element signature="e#92163#113348#0" expanded="false" />
+            <element signature="e#113390#114945#0" expanded="false" />
+            <element signature="e#114994#118051#0" expanded="false" />
+            <element signature="e#118099#125688#0" expanded="false" />
+            <element signature="e#125729#128225#0" expanded="false" />
+            <element signature="e#128269#128359#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonanywhere/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="60" column="76" lean-forward="false" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+        <state relative-caret-position="935">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="60" selection-end-column="84" />
           <folding>
             <element signature="e#638#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/404/404.html">
+    <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseUpload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbi/process/RBI/Postgresql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="126" column="42" lean-forward="false" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbi/process/WebUI/location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbi/process/RBI/CA_CAL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="1336" column="20" lean-forward="false" selection-start-line="1336" selection-start-column="20" selection-end-line="1336" selection-end-column="20" />
           <folding>
-            <element signature="e#701#764#0#HTML" expanded="true" />
-            <element signature="e#784#871#0#HTML" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbi/process/RBI/fastCalulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="754" column="77" lean-forward="false" selection-start-line="754" selection-start-column="63" selection-end-line="754" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/BaseUI/BaseFacility/baseFacility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="112" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="112" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonanywhere/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="-714">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
         </state>
       </provider>
