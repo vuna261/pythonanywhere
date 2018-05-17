@@ -57,8 +57,8 @@ urlpatterns = [
     path('proposal/<int:proposalID>/chart/', views.RiskChart, name='riskChart'),
     path('proposal/<int:proposalID>/fully-consequence/', views.FullyConsequence, name='fullyConsequence'),
     path('export/<int:index>/<str:type>/', views.ExportExcel, name='exportData'),
-    path('site/<int:siteID>/upload/InspectionHistory/', views.upload, name='upload'),
-    path('site/<int:siteID>/upload/Plan/', views.uploadInspPlan, name='uploadPlan'),
+    path('site/<int:siteID>/upload/InspectionHistory/', views.uploadInspPlan, name='upload'),
+    path('site/<int:siteID>/upload/Plan/', views.upload, name='uploadPlan'),
 ]
 handler404 = 'rbi.views.handler404'
 handler500 = 'rbi.views.handler404'
